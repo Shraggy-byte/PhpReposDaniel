@@ -31,4 +31,4 @@ $messagescopy = array_merge($messages);
 printRandomMessages(count($messagescopy), $messagescopy);
 print "\n";
 $messagescopy = array_merge($messages);
-printRandomMessages(3, $messagescopy);
+printRandomMessages(count($messagescopy), $messagescopy);
