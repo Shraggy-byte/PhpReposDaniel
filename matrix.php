@@ -1,7 +1,7 @@
 <?php
 $width = 10;
 $length = 10;
-$randomCount = 50;
+$randomCount = 20;
 $count = 0;
 $randoms = array();
 

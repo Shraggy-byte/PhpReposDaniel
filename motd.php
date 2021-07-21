@@ -12,7 +12,7 @@ function printRandomMessages($count,$arr) {
     }
     //solle das Array nur noch ein Eintrag haben, Ausgabe
     if (count($arr) == 1) {
-        print $arr[0]. "\n";
+        print $arr[0];
     }
 }
 $messages = array();
@@ -29,6 +29,6 @@ $messagescopy = array_merge($messages);
 
 //Aufruf der Funktion, weiters Kopieren und erneuter Aufruf
 printRandomMessages(count($messagescopy), $messagescopy);
-print "\n";
+print "\n\n\n";
 $messagescopy = array_merge($messages);
 printRandomMessages(count($messagescopy), $messagescopy);

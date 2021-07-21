@@ -51,7 +51,7 @@ foreach ($directory as $key => $value) {
         unset($directory[$key]);
     }
 }
-//Aufruf der Methoden (Datei, Wörter)
+//Aufruf der Methoden
 //randomArrayOutput(Array, MaxWörter, MaxZeichen);
 randomArrayOutput(fileToArray("test.txt"), 5, 140);
 print "\n\n\n";

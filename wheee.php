@@ -13,5 +13,7 @@ for($i = $zahl - 1; $i >= 1; $i--) {
     for ($j = $i; $j > 0; $j--) { 
         print "#";
     }
-    print "\n";
+    if($i > 1){
+        print "\n";
+    }
 }
